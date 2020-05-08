@@ -10,6 +10,7 @@ int main() {
     string response;
 
     cout << endl;
+    cout << "*This program works only with integers*" << endl;
     cout << "Enter 3 numbers to get the average: " << endl;
 
     cin >> a;
@@ -20,7 +21,7 @@ int main() {
     response = to_string(average);
 
     cout << endl;
-    cout << "This is your average:" << " " << response << endl;
+    cout << "This is your average: " << response << endl;
     cout << endl;
 
     return 0;
