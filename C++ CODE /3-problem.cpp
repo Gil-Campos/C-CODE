@@ -49,4 +49,6 @@ int main() {
 
     cout << response << endl;
     cout << endl;
+
+    return 0;
 }
